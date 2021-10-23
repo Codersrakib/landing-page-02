@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: qlassik,sans-serif, Helvetica !important;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+@font-face {
+    font-family: qlassik;
+    src: url("../fonts/Qlassik_TB.otf"),
+    url('../fonts/Qlassik_TB.ttf'),
+    url('../fonts/QlassikBold_TB.otf'),
+    url('../fonts/QlassikBold_TB.ttf');
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p{
+    line-height: 150%;
+    margin-bottom: 2em;
+}
+.container_full{
+    width: 100%;
+    height: auto;
+}
+.container_wrapper{
+    width: 960px;
+    margin: 0 auto;
+    display: block;
+}
+.fix{
+    overflow: hidden;
+}
+.align_center{
+    display: block;
+    margin: 0 auto;
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+              /* BASIC CSS TYPOGRAPHY END */
+.hrader_bg{
+    background: #E8E8E8;
+}
+#header .logo h1{
+    font-weight: bold;
+    font-size: 33px;
+    color: #515151;
+}
+#header{
+    padding: 20px 0;
+    overflow: hidden;
+}
+#header #nav_bar{
+    background: #F4F4F4;
+    border-radius: 5px;
+    box-sizing: 1px 1px 2px #AFAFAF;
+    margin-top: 15px;
+    padding: 2px 0px;
+
+}
+#header #nav_bar ul{
+    list-style: none;
+}
+#header #nav_bar ul li{
+    float: left;
+    padding: 5px 15px;
+    background: url('../img/menu_border.png') no-repeat;
+    background-position: center right;
+}
+#header #nav_bar ul li:hover{
+    float: left;
+    padding: 5px 15px;
+    background: url('../img/menu-hover.png') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#header #nav_bar ul li:last-child{
+    background: none;
+}
+#header #nav_bar ul li:last-child:hover{
+    background: url('../img/menu-hover1.png') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#header #nav_bar ul li a{
+    font-weight: bold;
+    font-size: 19px;
+    color: #515151;
+    display: block;
+}
+
+.bg{
+    background: #E8E8E8;
+}
+#slider_wrapp {
+    padding: 30px 0px;
+    overflow: hidden;
+
+}
+
+.theme-light.slider-wrapper{
+    border-radius: 10px;
+}
+.theme-light a.nivo-prevNav,.theme-light a.nivo-nextNav{
+    background-color: #C5C5C5;
+    border-radius: 50px;
+}
+.theme-light a.nivo-prevNav:hover{
+    background-color: #8D8D8D;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.theme-light a.nivo-nextNav:hover{
+    background-color: #8D8D8D;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.slider-shadow {
+    background: url("../img/slider-shadow.png") no-repeat;
+    background-position: bottom center;
+    padding-bottom: 10px;
+}
+.slider-bottom p{
+    font-size: 28px;
+    color: #515151;
+    text-align: center;
+}
+.single_wrapper{
+    text-align: center;
+    width: 185px;
+    float: left;
+    margin-right: 50px;
+}
+.single_wrapper h2{
+    font-size: 22px;
+    color: #515151;
+}
+.single_wrapper p{
+    font-size: 14px;
+    color: #3a3a3a;
+}
+#colum_wrapper{
+    margin: 20px 0;
+}
+.margin_left{
+    margin-left: 35px;
+}
+.margin_right{
+    margin-right: 0px;
+}
+.content_left{
+    width: 470px;
+    
+}
+.content_left h2{
+    font-weight: bold;
+    font-size: 25px;
+    color: #515151;
+    background: url("../img/ab-us.png") no-repeat;
+    background-position: left center;
+    padding-left: 45px;
+}
+.content_left p{
+    font-size: 14px;
+    color: #515151;
+}
+.content_right h2{
+    font-weight: bold;
+    font-size: 25px;
+    color: #515151;
+    background: url("../img/letest_ico.png") no-repeat;
+    background-position: left center;
+    padding-left: 45px;
+    margin-bottom: 25px;
+
+}
+.content_right ul{
+    list-style: none;
+}
+.content_right ul li{
+    float: left;
+    margin: 0 10px;
+    padding: 7px;
+    border-radius: 5px;
+    background: #fff;
+
+}
+.content_right ul li a{
+    display: block;
+}
+.content_wrapper{
+    padding: 50px 0;
+}
+.footer_bg{
+    overflow: hidden;
+    background: url("../img/footer-top-bg.png") repeat-x;
+    background-size:cover;
+    padding: 25px;
+}
+.single_footer_area{
+    width: 260px;
+    position: relative;
+}
+.single_footer_area #rec{
+    font-weight: bold;
+    font-size: 25px;
+    color: #c9c9c9;
+    background: url("../img/rcnt.png") no-repeat;
+    background-position: left center;
+    padding-left: 45px;
+    margin-bottom: 25px;
+}
+.single_footer_area #arch{
+    font-weight: bold;
+    font-size: 25px;
+    color: #c9c9c9;
+    background: url("../img/archive.png") no-repeat;
+    background-position: left center;
+    padding-left: 45px;
+    margin-bottom: 25px;
+}
+.single_footer_area #twite{
+    font-weight: bold;
+    font-size: 25px;
+    color: #c9c9c9;
+    background: url("../img/tw1.png") no-repeat;
+    background-position: left center;
+    padding-left: 45px;
+    margin-bottom: 25px;
+}
+.single_footer_area ul{
+    list-style: none;
+}
+.single_footer_area ul li{
+    background: url("../img/footer-tik.png") no-repeat;
+    background-position: left center;
+    padding: 7px 0;
+    padding-left: 30px;
+}
+.single_footer_area ul li a{
+    color: #aaaaaa;
+}
+.twitter_bg{
+    background: url("../img/twit-bg.png") no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 228px;
+
+}
+.twitter_bg p{
+    color: #aaaaaa;
+    padding: 15px;
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.twitter_bg a{
+    color: #6e9220;
+}
+.marging_left{
+    margin-left: 100px;
+}
+.btm-tw {
+    float: right;
+    margin: -25px 20px 0px 0px;
+}
+.main_footer_bg{
+    background: url('../img/main_footer_bg.png') repeat-x;
+    background-size: cover;
+
+}
+.footer p{
+    color: #aaaaaa;
+    padding: 0px 0px 0px 26px;
+    font-size: 12px;
+    float: left;
+    padding-top: 25px;
+}
+.footer_right ul{
+    list-style: none;
+}
+.footer_right ul li{
+    padding: 8px;
+    display: inline-block;
+    margin: 15px 0px 0px 0px;
+}
